@@ -1,0 +1,11 @@
+2019-11-28
+  - APM & phpmyadmin 세팅
+  - phpmyadmin 사용시 mysql 세팅을 해줘야함
+    "my.ini"파일을 생성한 후
+
+    [mysqld]
+    default_authentication_plugin=mysql_native_password
+    
+    "mysql -u root -p "명령으로 mysql 실행한 뒤 비밀번호 생성
+    "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';"
+    "FLUSH PRIVILEGES;"
