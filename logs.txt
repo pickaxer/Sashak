@@ -9,3 +9,7 @@
     "mysql -u root -p "명령으로 mysql 실행한 뒤 비밀번호 생성
     "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';"
     "FLUSH PRIVILEGES;"
+
+2019-12-04
+  - mysql 설정 파일위치 = mysql 폴더 / my.ini
+  - wikijs 설정 파일위치 = c:/wiki/config.yml
